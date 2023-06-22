@@ -116,8 +116,8 @@ body {
 .skills-center {
     text-align: center;
     font-weight: 600;
-    font-size: 48px;
-    line-height: 80px;
+    font-size: 3rem;
+    line-height: 5rem;
     color: #000;
     padding-top: 6.438rem;
     padding-bottom: 6rem;
@@ -171,6 +171,9 @@ main {
     line-height: 5rem;
     color: #263238;
 }
+.card-img-3 {
+    padding-bottom: 1.875rem;
+}
 
 .card-4-wrapper {
     display: flex;
@@ -192,4 +195,53 @@ main {
     border-radius: 0.313rem;
     background: #263238;
     color: #fff;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-content h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 5rem;
+    color: #000;
+    padding-bottom: 1.25rem;
+}
+
+.about-stats {
+    padding-top: 0.813rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.stats > h5 {
+    color: #2A3246;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 5rem;
+}
+
+.stats > p {
+    color: #8F95A5;
+    font-size: 1.25rem;
+}
+
+.pricing-center {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 5rem;
+    color: #000;
+    padding-top: 14.31rem;
+    padding-bottom: 5.20rem;
 }
