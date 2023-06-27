@@ -284,12 +284,18 @@ main {
     color: #263238;
     font-size: 1.875rem;
     cursor: pointer;
+    transition: 0.4s;
 }
 
 .pricing-btns span {
     padding-left: 0.5rem;
     color: #546269;
     font-size: 1.125rem;
+}
+
+.pricing-btns:hover {
+    background-color: #263238;
+    color: #fff;
 }
 
 .pricing-items {
